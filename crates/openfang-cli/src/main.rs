@@ -1230,6 +1230,11 @@ fn provider_list() -> Vec<(&'static str, &'static str, &'static str, &'static st
             "openrouter/auto",
             "OpenRouter",
         ),
+        ("qwen", "DASHSCOPE_API_KEY", "qwen-plus", "Qwen (Alibaba)"),
+        ("moonshot", "MOONSHOT_API_KEY", "moonshot-v1-8k", "Moonshot (Kimi)"),
+        ("minimax", "MINIMAX_API_KEY", "abab6.5s-chat", "MiniMax"),
+        ("zhipu", "ZHIPU_API_KEY", "glm-4-flash", "Zhipu AI (GLM)"),
+        ("qianfan", "QIANFAN_API_KEY", "ernie-4.5-turbo-128k", "Qianfan (Baidu)"),
     ]
 }
 

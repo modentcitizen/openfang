@@ -27,6 +27,14 @@ const PROVIDER_ENV_VARS: &[(&str, &str)] = &[
     ("TOGETHER_API_KEY", "Together"),
     ("MISTRAL_API_KEY", "Mistral"),
     ("FIREWORKS_API_KEY", "Fireworks"),
+    ("DASHSCOPE_API_KEY", "Qwen (Alibaba)"),
+    ("MOONSHOT_API_KEY", "Moonshot (Kimi)"),
+    ("MINIMAX_API_KEY", "MiniMax"),
+    ("ZHIPU_API_KEY", "Zhipu AI (GLM)"),
+    ("QIANFAN_API_KEY", "Qianfan (Baidu)"),
+    ("XAI_API_KEY", "xAI (Grok)"),
+    ("CEREBRAS_API_KEY", "Cerebras"),
+    ("SAMBANOVA_API_KEY", "SambaNova"),
 ];
 
 fn detect_provider() -> Option<(&'static str, &'static str)> {
